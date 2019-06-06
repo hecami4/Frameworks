@@ -1,0 +1,22 @@
+﻿pip: C:\Users\mhern276\AppData\Local\Programs\Python\Python37-32\Scripts
+
+VERSIONES USADAS:
+ python version 3.7.3
+ pip version 19.0.3
+ urllilb3
+
+ Proceso realizado en la logica:
+  1. Descarga de data
+    a dataset https://www.quandl.com/api/v3/datasets/
+    b archivos .csv (	norwhtproduction.csv   norwhtvalue.csv)
+    c archivo Wiki de precios de trigo
+  2. lectura de datasets y extraccion de sus datos a archivos "WIKI/name".csv
+  3. extraccion y transoformación de precios industriales de energia de las plantas de energia.
+  4. Plot de graficas
+
+
+ Proceso para ejecución por medio de los archivos .py del proyecto
+
+  	python importall.py
+  	python capm.py
+  	python portafolio.py
